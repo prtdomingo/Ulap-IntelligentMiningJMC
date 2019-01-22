@@ -17,7 +17,6 @@ from azureml.train.automl.run import AutoMLRun
 from sklearn.model_selection import train_test_split
 
 
-
 # check core SDK version number
 print('Azure ML SDK Version: ', azureml.core.VERSION)
 
@@ -57,11 +56,9 @@ else:
     
     print(compute_target.status.serialize())
 #%%
-<<<<<<< HEAD
 os.makedirs('./data', exist_ok = True)
 
 # INSERT DATA SOURCE HERE
-=======
 ds = ws.get_default_datastore()
 print(ds.datastore_type, ds.account_name, ds.container_name)
 # ds.upload(src_dir='./data', target_path='AssetData', overwrite=True, show_progress=True)
@@ -109,13 +106,13 @@ y_train.values.flatten()
 automl_settings = {
     "iteration_timeout_minutes" : 10,
     "iterations" : 30,
-    "primary_metric" : 'spearman_correlation',
+    "primary_metric" : 'AUC_weighted',
     "preprocess" : True,
     "verbosity" : logging.INFO,
     "n_cross_validations": 5
 }
 
-automated_ml_config = AutoMLConfig(task = 'regression',
+automated_ml_config = AutoMLConfig(task = 'classification',
                              debug_log = 'automated_ml_errors.log',
                              path = project_folder,
                              X = x_train.values,
@@ -123,4 +120,3 @@ automated_ml_config = AutoMLConfig(task = 'regression',
                              **automl_settings)
 
 local_run = exp.submit(automated_ml_config, show_output=True)
->>>>>>> 17f911018c15f365fd707db22f45197f994f16ec
