@@ -3525,3 +3525,1986 @@ Size of split is: 196432
 2019-01-22 05:34:34,007 - INFO - 695 : Start logging metrics for child run.
 2019-01-22 05:34:34,485 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
 2019-01-22 05:34:34,490 - INFO - 1269 : The following metrics have been logged for the child run: {'AUC_macro': 0.8181722129114221, 'accuracy_table': <class 'dict'>, 'log_loss': 0.36626199196896225, 'f1_score_micro': 0.8177069955967691, 'norm_macro_recall': 0.037025597952356645, 'weighted_accuracy': 0.9423284908285996, 'AUC_micro': 0.8181722129114221, 'recall_score_micro': 0.8177069955967691, 'f1_score_macro': 0.49584174279991267, 'precision_score_micro': 0.8177069955967691, 'accuracy': 0.8177069955967691, 'balanced_accuracy': 0.5185127989761783, 'recall_score_macro': 0.5185127989761783, 'precision_score_weighted': 0.7557053771886577, 'average_precision_score_macro': 0.40480884397303507, 'average_precision_score_weighted': 0.40480884397303507, 'precision_score_macro': 0.6288272196609572, 'average_precision_score_micro': 0.40480884397303507, 'confusion_matrix': <class 'dict'>, 'recall_score_weighted': 0.8177069955967691, 'f1_score_weighted': 0.7543667422602185, 'AUC_weighted': 0.8181722129114221, 'train time': <class 'float'>}.
+2019-01-22 05:34:35,934 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:34:36,074 - INFO - 627 : Start iteration: 7
+2019-01-22 05:34:36,075 - INFO - 491 : Loading from file cache
+2019-01-22 05:34:36,075 - INFO - 96 : ActivityStarted
+2019-01-22 05:34:36,076 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:34:36,076 - INFO - 96 : ActivityStarted
+2019-01-22 05:34:36,076 - INFO - 491 : Getting data for key: X
+2019-01-22 05:34:36,089 - INFO - 491 : Getting data for key: y
+2019-01-22 05:34:36,091 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:34:36,091 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:34:36,092 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:34:36,092 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:34:36,093 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:34:36,094 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:34:36,094 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:34:36,095 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:34:36,100 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:34:36,102 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:34:36,102 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=26.0 [ms]
+2019-01-22 05:34:36,103 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:34:36,106 - INFO - 544 : time taken for loading from cache 0.031000137329101562
+2019-01-22 05:34:36,106 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:34:36,560 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:34:37,140 - INFO - 682 : Received pipeline: {"pipeline_id": "512321adabcd8c1a68c713b112f4df8108c3e96e", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"n_components": 0.5047368421052632}, "class_name": "TruncatedSVDWrapper", "param_args": [], "module": "automl.client.core.common.model_wrappers"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": null, "solver": "newton-cg", "C": 232.99518105153672, "penalty": "l2", "multi_class": "ovr"}, "class_name": "LogisticRegression", "param_args": [], "module": "sklearn.linear_model"}]}
+2019-01-22 05:34:37,371 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:34:37,372 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_7]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:34:37,372 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:34:37,372 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_7] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:34:37,373 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_7] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:34:37,373 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_7
+2019-01-22 05:34:37,373 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:34:37,374 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:34:37,376 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:34:37,376 - INFO - 490 : Start executing pipeline {"pipeline_id": "512321adabcd8c1a68c713b112f4df8108c3e96e", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"n_components": 0.5047368421052632}, "class_name": "TruncatedSVDWrapper", "param_args": [], "module": "automl.client.core.common.model_wrappers"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": null, "solver": "newton-cg", "C": 232.99518105153672, "penalty": "l2", "multi_class": "ovr"}, "class_name": "LogisticRegression", "param_args": [], "module": "sklearn.linear_model"}]}.
+2019-01-22 05:34:37,377 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:34:46,644 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:34:59,073 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:12,533 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:27,112 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:27,188 - INFO - 664 : Pipeline execution finished with a score of 0.6612967568154882
+2019-01-22 05:35:27,194 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:35:27,226 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:27,865 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:35:27,867 - INFO - 1269 : The following metrics have been logged for the child run: {'f1_score_micro': 0.8207682034234391, 'log_loss': 0.44219740890393283, 'confusion_matrix': <class 'dict'>, 'average_precision_score_weighted': 0.25974559265858377, 'precision_score_weighted': 0.6737915368851418, 'AUC_weighted': 0.6612967568154882, 'average_precision_score_macro': 0.25974559265858377, 'f1_score_weighted': 0.740050486185681, 'precision_score_micro': 0.8207682034234391, 'recall_score_macro': 0.49995024114383346, 'AUC_macro': 0.6612967568154882, 'AUC_micro': 0.6612967568154882, 'average_precision_score_micro': 0.25974559265858377, 'balanced_accuracy': 0.49995024114383346, 'recall_score_weighted': 0.8207682034234391, 'norm_macro_recall': 0.0, 'weighted_accuracy': 0.9544163274118669, 'recall_score_micro': 0.8207682034234391, 'accuracy': 0.8207682034234391, 'f1_score_macro': 0.4507797421315389, 'precision_score_macro': 0.4104175820971377, 'accuracy_table': <class 'dict'>, 'train time': <class 'float'>}.
+2019-01-22 05:35:29,897 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:30,032 - INFO - 627 : Start iteration: 8
+2019-01-22 05:35:30,033 - INFO - 491 : Loading from file cache
+2019-01-22 05:35:30,033 - INFO - 96 : ActivityStarted
+2019-01-22 05:35:30,035 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=2.0 [ms]
+2019-01-22 05:35:30,035 - INFO - 96 : ActivityStarted
+2019-01-22 05:35:30,035 - INFO - 491 : Getting data for key: X
+2019-01-22 05:35:30,047 - INFO - 491 : Getting data for key: y
+2019-01-22 05:35:30,050 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:35:30,050 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:35:30,050 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:35:30,051 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:35:30,051 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:35:30,052 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:35:30,052 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:35:30,053 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:35:30,057 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:35:30,059 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:35:30,060 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=25.0 [ms]
+2019-01-22 05:35:30,060 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:35:30,061 - INFO - 544 : time taken for loading from cache 0.027995586395263672
+2019-01-22 05:35:30,061 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:35:31,050 - INFO - 682 : Received pipeline: {"pipeline_id": "ae8f95708aeac21263ae0a6b11ca408b638685a7", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 161, "min_child_weight": 4, "colsample_bytree": 0.8911111111111111, "reg_lambda": 0.47368421052631576, "reg_alpha": 0.05263157894736842, "min_data_in_leaf": 0.06552068965517242, "subsample": 0.05, "learning_rate": 0.036848421052631586, "min_split_gain": 0.631578947368421, "max_bin": 170, "n_estimators": 400, "max_depth": 7}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}
+2019-01-22 05:35:31,255 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:35:31,256 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_8]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:35:31,256 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:31,257 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_8] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:35:31,257 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_8] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:35:31,257 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_8
+2019-01-22 05:35:31,258 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:31,258 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:31,259 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:31,259 - INFO - 490 : Start executing pipeline {"pipeline_id": "ae8f95708aeac21263ae0a6b11ca408b638685a7", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 161, "min_child_weight": 4, "colsample_bytree": 0.8911111111111111, "reg_lambda": 0.47368421052631576, "reg_alpha": 0.05263157894736842, "min_data_in_leaf": 0.06552068965517242, "subsample": 0.05, "learning_rate": 0.036848421052631586, "min_split_gain": 0.631578947368421, "max_bin": 170, "n_estimators": 400, "max_depth": 7}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}.
+2019-01-22 05:35:31,260 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:35:37,227 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:45,908 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:45,913 - INFO - 664 : Pipeline execution finished with a score of 0.7928773520285454
+2019-01-22 05:35:45,918 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:35:46,934 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:35:46,940 - INFO - 1269 : The following metrics have been logged for the child run: {'confusion_matrix': <class 'dict'>, 'accuracy': 0.8170129430829283, 'precision_score_weighted': 0.7472493318803417, 'AUC_weighted': 0.7928773520285454, 'AUC_macro': 0.7928773520285454, 'weighted_accuracy': 0.9435984252416935, 'f1_score_weighted': 0.7503786754140261, 'log_loss': 0.38444988480847514, 'recall_score_micro': 0.8170129430829283, 'f1_score_macro': 0.48500647606837577, 'average_precision_score_macro': 0.3766331346095752, 'balanced_accuracy': 0.5131022852688852, 'recall_score_macro': 0.5131022852688852, 'precision_score_macro': 0.6081858065820681, 'recall_score_weighted': 0.8170129430829283, 'accuracy_table': <class 'dict'>, 'AUC_micro': 0.7928773520285454, 'norm_macro_recall': 0.026204570537770477, 'precision_score_micro': 0.8170129430829283, 'average_precision_score_weighted': 0.3766331346095752, 'f1_score_micro': 0.8170129430829283, 'average_precision_score_micro': 0.3766331346095752, 'train time': <class 'float'>}.
+2019-01-22 05:35:47,228 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:48,315 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:48,462 - INFO - 627 : Start iteration: 9
+2019-01-22 05:35:48,463 - INFO - 491 : Loading from file cache
+2019-01-22 05:35:48,463 - INFO - 96 : ActivityStarted
+2019-01-22 05:35:48,464 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:35:48,464 - INFO - 96 : ActivityStarted
+2019-01-22 05:35:48,464 - INFO - 491 : Getting data for key: X
+2019-01-22 05:35:48,478 - INFO - 491 : Getting data for key: y
+2019-01-22 05:35:48,480 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:35:48,480 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:35:48,481 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:35:48,481 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:35:48,483 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:35:48,484 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:35:48,485 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:35:48,485 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:35:48,490 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:35:48,492 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:35:48,492 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=28.02 [ms]
+2019-01-22 05:35:48,493 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:35:48,494 - INFO - 544 : time taken for loading from cache 0.031022310256958008
+2019-01-22 05:35:48,494 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:35:49,261 - INFO - 682 : Received pipeline: {"pipeline_id": "0bc83cc7356d722e9d6c32e63c66c24d7609317a", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": null, "min_samples_leaf": 0.035789473684210524, "splitter": "best", "criterion": "entropy", "min_samples_split": 0.056842105263157895, "max_features": 0.6}, "class_name": "DecisionTreeClassifier", "param_args": [], "module": "sklearn.tree"}]}
+2019-01-22 05:35:49,532 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:35:49,532 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_9]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:35:49,533 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:49,533 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_9] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:35:49,534 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_9] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:35:49,534 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_9
+2019-01-22 05:35:49,535 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:49,535 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:49,537 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:49,537 - INFO - 490 : Start executing pipeline {"pipeline_id": "0bc83cc7356d722e9d6c32e63c66c24d7609317a", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": null, "min_samples_leaf": 0.035789473684210524, "splitter": "best", "criterion": "entropy", "min_samples_split": 0.056842105263157895, "max_features": 0.6}, "class_name": "DecisionTreeClassifier", "param_args": [], "module": "sklearn.tree"}]}.
+2019-01-22 05:35:49,537 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:35:55,340 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:55,341 - INFO - 664 : Pipeline execution finished with a score of 0.730661547463374
+2019-01-22 05:35:55,347 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:35:55,886 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:35:55,895 - INFO - 1269 : The following metrics have been logged for the child run: {'norm_macro_recall': 0.0, 'recall_score_macro': 0.5, 'recall_score_micro': 0.8208498360765002, 'f1_score_macro': 0.4508043815989288, 'average_precision_score_micro': 0.3212056503261175, 'balanced_accuracy': 0.5, 'weighted_accuracy': 0.9545112824121503, 'f1_score_weighted': 0.740090908955143, 'confusion_matrix': <class 'dict'>, 'average_precision_score_weighted': 0.3212056503261175, 'precision_score_macro': 0.4104249180382501, 'AUC_macro': 0.730661547463374, 'average_precision_score_macro': 0.3212056503261175, 'accuracy_table': <class 'dict'>, 'f1_score_micro': 0.8208498360765004, 'log_loss': 0.41814116638594506, 'precision_score_weighted': 0.6738035707480139, 'AUC_weighted': 0.730661547463374, 'accuracy': 0.8208498360765002, 'AUC_micro': 0.730661547463374, 'precision_score_micro': 0.8208498360765002, 'recall_score_weighted': 0.8208498360765002, 'train time': <class 'float'>}.
+2019-01-22 05:35:57,152 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:57,230 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:57,289 - INFO - 627 : Start iteration: 10
+2019-01-22 05:35:57,290 - INFO - 491 : Loading from file cache
+2019-01-22 05:35:57,291 - INFO - 96 : ActivityStarted
+2019-01-22 05:35:57,292 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=0.0 [ms]
+2019-01-22 05:35:57,292 - INFO - 96 : ActivityStarted
+2019-01-22 05:35:57,292 - INFO - 491 : Getting data for key: X
+2019-01-22 05:35:57,305 - INFO - 491 : Getting data for key: y
+2019-01-22 05:35:57,306 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:35:57,306 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:35:57,307 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:35:57,308 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:35:57,308 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:35:57,309 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:35:57,309 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:35:57,311 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:35:57,317 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:35:57,318 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:35:57,319 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=27.35 [ms]
+2019-01-22 05:35:57,320 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:35:57,321 - INFO - 544 : time taken for loading from cache 0.030994176864624023
+2019-01-22 05:35:57,321 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:35:58,006 - INFO - 682 : Received pipeline: {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"class_weight": null, "max_features": 0.8, "splitter": "random", "min_samples_split": 0.10368421052631578, "min_samples_leaf": 0.01, "criterion": "gini"}, "class_name": "DecisionTreeClassifier", "spec_class": "sklearn", "param_args": [], "module": "sklearn.tree"}], "pipeline_id": "cba4541c7281bd318ef3fa20c564264eb0c2df66"}
+2019-01-22 05:35:58,276 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:35:58,276 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_10]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:35:58,277 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:58,277 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_10] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:35:58,277 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_10] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:35:58,278 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_10
+2019-01-22 05:35:58,278 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:58,278 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:58,279 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:35:58,280 - INFO - 490 : Start executing pipeline {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"class_weight": null, "max_features": 0.8, "splitter": "random", "min_samples_split": 0.10368421052631578, "min_samples_leaf": 0.01, "criterion": "gini"}, "class_name": "DecisionTreeClassifier", "spec_class": "sklearn", "param_args": [], "module": "sklearn.tree"}], "pipeline_id": "cba4541c7281bd318ef3fa20c564264eb0c2df66"}.
+2019-01-22 05:35:58,280 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:36:04,072 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:04,073 - INFO - 664 : Pipeline execution finished with a score of 0.6885740514689358
+2019-01-22 05:36:04,079 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:36:04,621 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:36:04,630 - INFO - 1269 : The following metrics have been logged for the child run: {'AUC_weighted': 0.6885740514689358, 'confusion_matrix': <class 'dict'>, 'recall_score_macro': 0.5, 'average_precision_score_micro': 0.2863935163943856, 'precision_score_macro': 0.4104249180382501, 'average_precision_score_macro': 0.2863935163943856, 'f1_score_weighted': 0.740090908955143, 'recall_score_micro': 0.8208498360765002, 'weighted_accuracy': 0.9545112824121503, 'accuracy': 0.8208498360765002, 'recall_score_weighted': 0.8208498360765002, 'AUC_macro': 0.6885740514689358, 'f1_score_macro': 0.4508043815989288, 'precision_score_weighted': 0.6738035707480139, 'norm_macro_recall': 0.0, 'f1_score_micro': 0.8208498360765004, 'AUC_micro': 0.6885740514689358, 'log_loss': 0.4350661416914604, 'accuracy_table': <class 'dict'>, 'precision_score_micro': 0.8208498360765002, 'balanced_accuracy': 0.5, 'average_precision_score_weighted': 0.2863935163943856, 'train time': <class 'float'>}.
+2019-01-22 05:36:05,966 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:06,096 - INFO - 627 : Start iteration: 11
+2019-01-22 05:36:06,097 - INFO - 491 : Loading from file cache
+2019-01-22 05:36:06,098 - INFO - 96 : ActivityStarted
+2019-01-22 05:36:06,098 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=0.0 [ms]
+2019-01-22 05:36:06,099 - INFO - 96 : ActivityStarted
+2019-01-22 05:36:06,099 - INFO - 491 : Getting data for key: X
+2019-01-22 05:36:06,112 - INFO - 491 : Getting data for key: y
+2019-01-22 05:36:06,113 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:36:06,114 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:36:06,114 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:36:06,115 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:36:06,116 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:36:06,116 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:36:06,117 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:36:06,118 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:36:06,125 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:36:06,126 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:36:06,127 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=28.0 [ms]
+2019-01-22 05:36:06,128 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:36:06,128 - INFO - 544 : time taken for loading from cache 0.030996322631835938
+2019-01-22 05:36:06,128 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:36:07,056 - INFO - 682 : Received pipeline: {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"class_weight": "balanced", "C": 494.1713361323828, "penalty": "l1", "solver": "saga", "multi_class": "ovr"}, "class_name": "LogisticRegression", "spec_class": "sklearn", "param_args": [], "module": "sklearn.linear_model"}], "pipeline_id": "45d82eaaa75b6d107d2acbb01a097d18775f1adc"}
+2019-01-22 05:36:07,232 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:07,274 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:36:07,275 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_11]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:36:07,275 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:07,276 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_11] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:36:07,276 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_11] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:36:07,276 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_11
+2019-01-22 05:36:07,277 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:07,277 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:07,278 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:07,278 - INFO - 490 : Start executing pipeline {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"class_weight": "balanced", "C": 494.1713361323828, "penalty": "l1", "solver": "saga", "multi_class": "ovr"}, "class_name": "LogisticRegression", "spec_class": "sklearn", "param_args": [], "module": "sklearn.linear_model"}], "pipeline_id": "45d82eaaa75b6d107d2acbb01a097d18775f1adc"}.
+2019-01-22 05:36:07,279 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:36:17,233 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:27,236 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:29,226 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:29,232 - INFO - 664 : Pipeline execution finished with a score of 0.655383903650001
+2019-01-22 05:36:29,234 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:36:29,829 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:36:29,835 - INFO - 1269 : The following metrics have been logged for the child run: {'norm_macro_recall': 0.2274574357842023, 'precision_score_weighted': 0.7737456711114351, 'AUC_weighted': 0.655383903650001, 'confusion_matrix': <class 'dict'>, 'recall_score_micro': 0.5601858521730799, 'accuracy_table': <class 'dict'>, 'balanced_accuracy': 0.6137287178921011, 'f1_score_weighted': 0.610197435447313, 'f1_score_micro': 0.5601858521730799, 'recall_score_weighted': 0.5601858521730799, 'precision_score_micro': 0.5601858521730799, 'precision_score_macro': 0.5669346771830759, 'average_precision_score_macro': 0.2719560898651316, 'average_precision_score_weighted': 0.2719560898651316, 'average_precision_score_micro': 0.2719560898651316, 'f1_score_macro': 0.5132445665902372, 'AUC_macro': 0.655383903650001, 'recall_score_macro': 0.6137287178921011, 'AUC_micro': 0.655383903650001, 'accuracy': 0.5601858521730799, 'weighted_accuracy': 0.5379110723768241, 'log_loss': 0.6433011848043237, 'train time': <class 'float'>}.
+2019-01-22 05:36:31,157 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:31,315 - INFO - 627 : Start iteration: 12
+2019-01-22 05:36:31,316 - INFO - 491 : Loading from file cache
+2019-01-22 05:36:31,317 - INFO - 96 : ActivityStarted
+2019-01-22 05:36:31,318 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:36:31,318 - INFO - 96 : ActivityStarted
+2019-01-22 05:36:31,318 - INFO - 491 : Getting data for key: X
+2019-01-22 05:36:31,332 - INFO - 491 : Getting data for key: y
+2019-01-22 05:36:31,333 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:36:31,334 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:36:31,335 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:36:31,335 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:36:31,336 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:36:31,337 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:36:31,337 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:36:31,338 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:36:31,343 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:36:31,344 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:36:31,345 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=27.0 [ms]
+2019-01-22 05:36:31,346 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:36:31,346 - INFO - 544 : time taken for loading from cache 0.030000925064086914
+2019-01-22 05:36:31,346 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:36:32,658 - INFO - 682 : Received pipeline: {"pipeline_id": "d46cc8dff3a498694959b282beafbdfa680c8750", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "goss", "num_leaves": 68, "min_child_weight": 3, "colsample_bytree": 0.99, "reg_lambda": 0.05263157894736842, "reg_alpha": 0.2631578947368421, "min_data_in_leaf": 0.027593448275862072, "subsample": 1, "learning_rate": 0.04737368421052632, "min_split_gain": 0.5789473684210527, "max_bin": 380, "n_estimators": 600, "max_depth": 9}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}
+2019-01-22 05:36:32,859 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:36:32,859 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_12]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:36:32,860 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:32,860 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_12] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:36:32,860 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_12] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:36:32,861 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_12
+2019-01-22 05:36:32,861 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:32,861 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:32,862 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:32,863 - INFO - 490 : Start executing pipeline {"pipeline_id": "d46cc8dff3a498694959b282beafbdfa680c8750", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "goss", "num_leaves": 68, "min_child_weight": 3, "colsample_bytree": 0.99, "reg_lambda": 0.05263157894736842, "reg_alpha": 0.2631578947368421, "min_data_in_leaf": 0.027593448275862072, "subsample": 1, "learning_rate": 0.04737368421052632, "min_split_gain": 0.5789473684210527, "max_bin": 380, "n_estimators": 600, "max_depth": 9}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}.
+2019-01-22 05:36:32,863 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:36:37,238 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:47,240 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:54,151 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:54,167 - INFO - 664 : Pipeline execution finished with a score of 0.8020562422792187
+2019-01-22 05:36:54,173 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:36:54,717 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:36:54,724 - INFO - 1269 : The following metrics have been logged for the child run: {'f1_score_micro': 0.8139517102615693, 'f1_score_weighted': 0.759443645489532, 'log_loss': 0.3808050929647295, 'average_precision_score_micro': 0.3801722857181378, 'precision_score_macro': 0.615673164730982, 'confusion_matrix': <class 'dict'>, 'recall_score_macro': 0.5274473522385248, 'precision_score_micro': 0.8139517102615693, 'accuracy': 0.8139517102615693, 'norm_macro_recall': 0.054894704477049625, 'AUC_macro': 0.8020562422792187, 'precision_score_weighted': 0.7527989781950859, 'average_precision_score_macro': 0.3801722857181378, 'AUC_weighted': 0.8020562422792187, 'recall_score_weighted': 0.8139517102615693, 'weighted_accuracy': 0.9332886006375081, 'accuracy_table': <class 'dict'>, 'recall_score_micro': 0.8139517102615693, 'average_precision_score_weighted': 0.3801722857181378, 'balanced_accuracy': 0.5274473522385248, 'AUC_micro': 0.8020562422792187, 'f1_score_macro': 0.515206015840406, 'train time': <class 'float'>}.
+2019-01-22 05:36:56,370 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:56,527 - INFO - 627 : Start iteration: 13
+2019-01-22 05:36:56,528 - INFO - 491 : Loading from file cache
+2019-01-22 05:36:56,528 - INFO - 96 : ActivityStarted
+2019-01-22 05:36:56,529 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:36:56,529 - INFO - 96 : ActivityStarted
+2019-01-22 05:36:56,529 - INFO - 491 : Getting data for key: X
+2019-01-22 05:36:56,545 - INFO - 491 : Getting data for key: y
+2019-01-22 05:36:56,547 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:36:56,548 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:36:56,548 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:36:56,549 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:36:56,550 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:36:56,551 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:36:56,552 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:36:56,553 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:36:56,557 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:36:56,559 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:36:56,560 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=31.0 [ms]
+2019-01-22 05:36:56,561 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:36:56,561 - INFO - 544 : time taken for loading from cache 0.032999277114868164
+2019-01-22 05:36:56,561 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:36:57,105 - INFO - 682 : Received pipeline: {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"class_weight": null, "C": 719.6856730011514, "penalty": "l2", "solver": "newton-cg", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "spec_class": "sklearn", "param_args": [], "module": "sklearn.linear_model"}], "pipeline_id": "6c28e506109e59f281291bfc41de1a5cca1d0f0c"}
+2019-01-22 05:36:57,250 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:57,409 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:36:57,410 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_13]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:36:57,411 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:57,411 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_13] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:36:57,411 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_13] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:36:57,411 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_13
+2019-01-22 05:36:57,412 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:57,413 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:57,414 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:36:57,414 - INFO - 490 : Start executing pipeline {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"class_weight": null, "C": 719.6856730011514, "penalty": "l2", "solver": "newton-cg", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "spec_class": "sklearn", "param_args": [], "module": "sklearn.linear_model"}], "pipeline_id": "6c28e506109e59f281291bfc41de1a5cca1d0f0c"}.
+2019-01-22 05:36:57,414 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:37:07,267 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:17,628 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:24,904 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:24,914 - INFO - 664 : Pipeline execution finished with a score of 0.6568359153661134
+2019-01-22 05:37:24,920 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:37:26,120 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:37:26,132 - INFO - 1269 : The following metrics have been logged for the child run: {'average_precision_score_micro': 0.2736122903574808, 'log_loss': 0.48798257302493714, 'f1_score_micro': 0.8226866124281924, 'accuracy_table': <class 'dict'>, 'accuracy': 0.8226866124281923, 'AUC_macro': 0.6568359153661134, 'precision_score_micro': 0.8226866124281923, 'AUC_weighted': 0.6568359153661134, 'f1_score_macro': 0.4723313250119623, 'precision_score_weighted': 0.7950724916020072, 'balanced_accuracy': 0.5096880797540206, 'average_precision_score_macro': 0.2736122903574808, 'confusion_matrix': <class 'dict'>, 'norm_macro_recall': 0.019376159508041148, 'recall_score_micro': 0.8226866124281923, 'f1_score_weighted': 0.7482320868074985, 'recall_score_macro': 0.5096880797540206, 'precision_score_macro': 0.7437840500349375, 'average_precision_score_weighted': 0.2736122903574808, 'weighted_accuracy': 0.9530834273562411, 'recall_score_weighted': 0.8226866124281923, 'AUC_micro': 0.6568359153661134, 'train time': <class 'float'>}.
+2019-01-22 05:37:27,187 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:27,328 - INFO - 627 : Start iteration: 14
+2019-01-22 05:37:27,329 - INFO - 491 : Loading from file cache
+2019-01-22 05:37:27,329 - INFO - 96 : ActivityStarted
+2019-01-22 05:37:27,331 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=2.0 [ms]
+2019-01-22 05:37:27,331 - INFO - 96 : ActivityStarted
+2019-01-22 05:37:27,331 - INFO - 491 : Getting data for key: X
+2019-01-22 05:37:27,343 - INFO - 491 : Getting data for key: y
+2019-01-22 05:37:27,344 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:37:27,345 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:37:27,345 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:37:27,346 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:37:27,346 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:37:27,347 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:37:27,347 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:37:27,348 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:37:27,354 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:37:27,356 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:37:27,356 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=25.0 [ms]
+2019-01-22 05:37:27,357 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:37:27,358 - INFO - 544 : time taken for loading from cache 0.029002666473388672
+2019-01-22 05:37:27,358 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:37:28,216 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:28,438 - INFO - 682 : Received pipeline: {"objects": [{"prepared_kwargs": {}, "param_kwargs": {"norm": "l1"}, "class_name": "SparseNormalizer", "spec_class": "preproc", "param_args": [], "module": "automl.client.core.common.model_wrappers"}, {"prepared_kwargs": {}, "param_kwargs": {"min_data_in_leaf": 0.03793724137931035, "num_leaves": 68, "learning_rate": 0.015797894736842105, "reg_alpha": 0.7368421052631579, "max_depth": 6, "colsample_bytree": 0.1988888888888889, "min_split_gain": 0.8421052631578947, "reg_lambda": 0.3684210526315789, "max_bin": 70, "min_child_weight": 10, "n_estimators": 50, "boosting_type": "gbdt", "subsample": 0.8415789473684211}, "class_name": "LightGBMClassifier", "spec_class": "sklearn", "param_args": [], "module": "automl.client.core.common.model_wrappers"}], "pipeline_id": "f0d8624fd6dfe7406d62712465904ceb2bc4e346"}
+2019-01-22 05:37:28,661 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:37:28,662 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_14]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:37:28,662 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:28,663 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_14] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:37:28,663 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_14] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:37:28,663 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_14
+2019-01-22 05:37:28,664 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:28,664 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:28,665 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:28,665 - INFO - 490 : Start executing pipeline {"objects": [{"prepared_kwargs": {}, "param_kwargs": {"norm": "l1"}, "class_name": "SparseNormalizer", "spec_class": "preproc", "param_args": [], "module": "automl.client.core.common.model_wrappers"}, {"prepared_kwargs": {}, "param_kwargs": {"min_data_in_leaf": 0.03793724137931035, "num_leaves": 68, "learning_rate": 0.015797894736842105, "reg_alpha": 0.7368421052631579, "max_depth": 6, "colsample_bytree": 0.1988888888888889, "min_split_gain": 0.8421052631578947, "reg_lambda": 0.3684210526315789, "max_bin": 70, "min_child_weight": 10, "n_estimators": 50, "boosting_type": "gbdt", "subsample": 0.8415789473684211}, "class_name": "LightGBMClassifier", "spec_class": "sklearn", "param_args": [], "module": "automl.client.core.common.model_wrappers"}], "pipeline_id": "f0d8624fd6dfe7406d62712465904ceb2bc4e346"}.
+2019-01-22 05:37:28,666 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:37:34,802 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:34,807 - INFO - 664 : Pipeline execution finished with a score of 0.7536121166835889
+2019-01-22 05:37:34,808 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:37:35,322 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:37:35,323 - INFO - 1269 : The following metrics have been logged for the child run: {'precision_score_micro': 0.8208498360765002, 'recall_score_micro': 0.8208498360765002, 'log_loss': 0.4374775107460784, 'precision_score_weighted': 0.6738035707480139, 'norm_macro_recall': 0.0, 'AUC_weighted': 0.7536121166835889, 'recall_score_macro': 0.5, 'weighted_accuracy': 0.9545112824121503, 'average_precision_score_micro': 0.3476074567139963, 'f1_score_micro': 0.8208498360765004, 'accuracy': 0.8208498360765002, 'f1_score_macro': 0.4508043815989288, 'f1_score_weighted': 0.740090908955143, 'AUC_micro': 0.7536121166835889, 'precision_score_macro': 0.4104249180382501, 'AUC_macro': 0.7536121166835889, 'average_precision_score_weighted': 0.3476074567139963, 'accuracy_table': <class 'dict'>, 'recall_score_weighted': 0.8208498360765002, 'average_precision_score_macro': 0.3476074567139963, 'confusion_matrix': <class 'dict'>, 'balanced_accuracy': 0.5, 'train time': <class 'float'>}.
+2019-01-22 05:37:36,666 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:36,817 - INFO - 627 : Start iteration: 15
+2019-01-22 05:37:36,818 - INFO - 491 : Loading from file cache
+2019-01-22 05:37:36,818 - INFO - 96 : ActivityStarted
+2019-01-22 05:37:36,819 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:37:36,819 - INFO - 96 : ActivityStarted
+2019-01-22 05:37:36,820 - INFO - 491 : Getting data for key: X
+2019-01-22 05:37:36,833 - INFO - 491 : Getting data for key: y
+2019-01-22 05:37:36,835 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:37:36,835 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:37:36,836 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:37:36,836 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:37:36,837 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:37:36,838 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:37:36,838 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:37:36,839 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:37:36,844 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:37:36,846 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:37:36,847 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=28.0 [ms]
+2019-01-22 05:37:36,847 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:37:36,848 - INFO - 544 : time taken for loading from cache 0.03000187873840332
+2019-01-22 05:37:36,848 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:37:37,860 - INFO - 682 : Received pipeline: {"pipeline_id": "cc390e3bec7859e456b14fcae564cc63b4df96c1", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"min_samples_leaf": 0.035789473684210524, "subsample": 0.8578947368421053, "criterion": "friedman_mse", "learning_rate": 0.1, "min_samples_split": 0.5721052631578947, "n_estimators": 600, "max_features": 0.5, "max_depth": 1}, "class_name": "GradientBoostingClassifier", "param_args": [], "module": "sklearn.ensemble"}]}
+2019-01-22 05:37:38,066 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:37:38,066 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_15]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:37:38,067 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:38,067 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_15] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:37:38,068 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_15] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:37:38,068 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_15
+2019-01-22 05:37:38,068 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:38,069 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:38,070 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:38,070 - INFO - 490 : Start executing pipeline {"pipeline_id": "cc390e3bec7859e456b14fcae564cc63b4df96c1", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"min_samples_leaf": 0.035789473684210524, "subsample": 0.8578947368421053, "criterion": "friedman_mse", "learning_rate": 0.1, "min_samples_split": 0.5721052631578947, "n_estimators": 600, "max_features": 0.5, "max_depth": 1}, "class_name": "GradientBoostingClassifier", "param_args": [], "module": "sklearn.ensemble"}]}.
+2019-01-22 05:37:38,071 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:37:38,218 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:48,220 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:37:58,223 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:08,228 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:18,358 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:27,439 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:27,440 - INFO - 664 : Pipeline execution finished with a score of 0.7505201347175828
+2019-01-22 05:38:27,446 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:38:28,057 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:38:28,058 - INFO - 1269 : The following metrics have been logged for the child run: {'average_precision_score_weighted': 0.33464887480408734, 'weighted_accuracy': 0.9494845777568433, 'accuracy': 0.8177068372970743, 'f1_score_weighted': 0.7413103118818207, 'precision_score_macro': 0.5304791770965666, 'precision_score_micro': 0.8177068372970743, 'AUC_macro': 0.7505201347175828, 'norm_macro_recall': 0.002881386096609484, 'recall_score_micro': 0.8177068372970743, 'log_loss': 0.411895941166531, 'average_precision_score_micro': 0.33464887480408734, 'AUC_weighted': 0.7505201347175828, 'balanced_accuracy': 0.5013702733695536, 'precision_score_weighted': 0.7171306925093095, 'recall_score_weighted': 0.8177068372970743, 'accuracy_table': <class 'dict'>, 'confusion_matrix': <class 'dict'>, 'f1_score_macro': 0.4578900658414436, 'f1_score_micro': 0.8177068372970743, 'average_precision_score_macro': 0.33464887480408734, 'recall_score_macro': 0.5013702733695536, 'AUC_micro': 0.7505201347175828, 'train time': <class 'float'>}.
+2019-01-22 05:38:28,541 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:30,200 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:30,355 - INFO - 627 : Start iteration: 16
+2019-01-22 05:38:30,356 - INFO - 491 : Loading from file cache
+2019-01-22 05:38:30,356 - INFO - 96 : ActivityStarted
+2019-01-22 05:38:30,357 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:38:30,358 - INFO - 96 : ActivityStarted
+2019-01-22 05:38:30,358 - INFO - 491 : Getting data for key: X
+2019-01-22 05:38:30,370 - INFO - 491 : Getting data for key: y
+2019-01-22 05:38:30,371 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:38:30,373 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:38:30,373 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:38:30,374 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:38:30,375 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:38:30,376 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:38:30,376 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:38:30,377 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:38:30,382 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:38:30,384 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:38:30,384 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=26.0 [ms]
+2019-01-22 05:38:30,385 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:38:30,385 - INFO - 544 : time taken for loading from cache 0.02899909019470215
+2019-01-22 05:38:30,386 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:38:31,738 - INFO - 682 : Received pipeline: {"pipeline_id": "bddb5e95888ef2eb66fc3d0fd942788722238b20", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"min_samples_leaf": 0.2163157894736842, "subsample": 0.8578947368421053, "criterion": "mse", "learning_rate": 0.1, "min_samples_split": 0.056842105263157895, "n_estimators": 50, "max_features": "sqrt", "max_depth": 10}, "class_name": "GradientBoostingClassifier", "param_args": [], "module": "sklearn.ensemble"}]}
+2019-01-22 05:38:32,044 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:38:32,044 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_16]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:38:32,045 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:32,045 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_16] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:38:32,045 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_16] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:38:32,046 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_16
+2019-01-22 05:38:32,049 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:32,049 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:32,051 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:32,051 - INFO - 490 : Start executing pipeline {"pipeline_id": "bddb5e95888ef2eb66fc3d0fd942788722238b20", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"min_samples_leaf": 0.2163157894736842, "subsample": 0.8578947368421053, "criterion": "mse", "learning_rate": 0.1, "min_samples_split": 0.056842105263157895, "n_estimators": 50, "max_features": "sqrt", "max_depth": 10}, "class_name": "GradientBoostingClassifier", "param_args": [], "module": "sklearn.ensemble"}]}.
+2019-01-22 05:38:32,052 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:38:38,571 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:40,175 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:40,176 - INFO - 664 : Pipeline execution finished with a score of 0.6609393921859709
+2019-01-22 05:38:40,177 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:38:40,789 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:38:40,789 - INFO - 1269 : The following metrics have been logged for the child run: {'precision_score_weighted': 0.6738035707480139, 'recall_score_weighted': 0.8208498360765002, 'AUC_micro': 0.6609393921859709, 'f1_score_macro': 0.4508043815989288, 'precision_score_micro': 0.8208498360765002, 'f1_score_weighted': 0.740090908955143, 'average_precision_score_weighted': 0.281087407492255, 'log_loss': 0.44953874893376666, 'accuracy': 0.8208498360765002, 'AUC_weighted': 0.6609393921859709, 'accuracy_table': <class 'dict'>, 'f1_score_micro': 0.8208498360765004, 'weighted_accuracy': 0.9545112824121503, 'AUC_macro': 0.6609393921859709, 'norm_macro_recall': 0.0, 'average_precision_score_micro': 0.281087407492255, 'recall_score_macro': 0.5, 'balanced_accuracy': 0.5, 'recall_score_micro': 0.8208498360765002, 'precision_score_macro': 0.4104249180382501, 'confusion_matrix': <class 'dict'>, 'average_precision_score_macro': 0.281087407492255, 'train time': <class 'float'>}.
+2019-01-22 05:38:41,774 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:41,935 - INFO - 627 : Start iteration: 17
+2019-01-22 05:38:41,936 - INFO - 491 : Loading from file cache
+2019-01-22 05:38:41,936 - INFO - 96 : ActivityStarted
+2019-01-22 05:38:41,937 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:38:41,937 - INFO - 96 : ActivityStarted
+2019-01-22 05:38:41,938 - INFO - 491 : Getting data for key: X
+2019-01-22 05:38:41,949 - INFO - 491 : Getting data for key: y
+2019-01-22 05:38:41,950 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:38:41,951 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:38:41,951 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:38:41,952 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:38:41,953 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:38:41,953 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:38:41,954 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:38:41,954 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:38:41,959 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:38:41,960 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:38:41,961 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=24.0 [ms]
+2019-01-22 05:38:41,962 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:38:41,962 - INFO - 544 : time taken for loading from cache 0.0260007381439209
+2019-01-22 05:38:41,962 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:38:43,115 - INFO - 682 : Received pipeline: {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"min_data_in_leaf": 0.006905862068965518, "num_leaves": 26, "learning_rate": 0.0842121052631579, "reg_alpha": 0.7368421052631579, "max_depth": 2, "colsample_bytree": 0.7922222222222222, "min_split_gain": 0.05263157894736842, "reg_lambda": 0.9473684210526315, "max_bin": 160, "min_child_weight": 6, "n_estimators": 600, "boosting_type": "goss", "subsample": 1}, "class_name": "LightGBMClassifier", "spec_class": "sklearn", "param_args": [], "module": "automl.client.core.common.model_wrappers"}], "pipeline_id": "07c96b3ec38d1adcbf53721b60632e980d05bcee"}
+2019-01-22 05:38:44,051 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:38:44,051 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_17]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:38:44,052 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:44,052 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_17] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:38:44,052 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_17] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:38:44,053 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_17
+2019-01-22 05:38:44,053 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:44,053 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:44,054 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:44,055 - INFO - 490 : Start executing pipeline {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"min_data_in_leaf": 0.006905862068965518, "num_leaves": 26, "learning_rate": 0.0842121052631579, "reg_alpha": 0.7368421052631579, "max_depth": 2, "colsample_bytree": 0.7922222222222222, "min_split_gain": 0.05263157894736842, "reg_lambda": 0.9473684210526315, "max_bin": 160, "min_child_weight": 6, "n_estimators": 600, "boosting_type": "goss", "subsample": 1}, "class_name": "LightGBMClassifier", "spec_class": "sklearn", "param_args": [], "module": "automl.client.core.common.model_wrappers"}], "pipeline_id": "07c96b3ec38d1adcbf53721b60632e980d05bcee"}.
+2019-01-22 05:38:44,055 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:38:48,588 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:38:58,594 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:00,236 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:00,236 - INFO - 664 : Pipeline execution finished with a score of 0.802081897618649
+2019-01-22 05:39:00,237 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:39:00,702 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:39:00,715 - INFO - 1269 : The following metrics have been logged for the child run: {'accuracy_table': <class 'dict'>, 'recall_score_weighted': 0.8172986657002055, 'log_loss': 0.3791201312616371, 'AUC_weighted': 0.802081897618649, 'precision_score_weighted': 0.7562637265534586, 'confusion_matrix': <class 'dict'>, 'balanced_accuracy': 0.5219741804142985, 'accuracy': 0.8172986657002055, 'precision_score_macro': 0.62851811829919, 'f1_score_micro': 0.8172986657002055, 'recall_score_macro': 0.5219741804142985, 'AUC_micro': 0.802081897618649, 'norm_macro_recall': 0.04394836082859706, 'weighted_accuracy': 0.9402967965447608, 'f1_score_weighted': 0.7566362033798845, 'precision_score_micro': 0.8172986657002055, 'recall_score_micro': 0.8172986657002055, 'average_precision_score_macro': 0.391682555655151, 'f1_score_macro': 0.5029289883936376, 'average_precision_score_micro': 0.391682555655151, 'AUC_macro': 0.802081897618649, 'average_precision_score_weighted': 0.391682555655151, 'train time': <class 'float'>}.
+2019-01-22 05:39:02,277 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:02,489 - INFO - 627 : Start iteration: 18
+2019-01-22 05:39:02,490 - INFO - 491 : Loading from file cache
+2019-01-22 05:39:02,490 - INFO - 96 : ActivityStarted
+2019-01-22 05:39:02,491 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:39:02,491 - INFO - 96 : ActivityStarted
+2019-01-22 05:39:02,492 - INFO - 491 : Getting data for key: X
+2019-01-22 05:39:02,504 - INFO - 491 : Getting data for key: y
+2019-01-22 05:39:02,506 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:39:02,506 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:39:02,507 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:39:02,507 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:39:02,509 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:39:02,509 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:39:02,510 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:39:02,510 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:39:02,515 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:39:02,516 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:39:02,517 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=26.0 [ms]
+2019-01-22 05:39:02,517 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:39:02,517 - INFO - 544 : time taken for loading from cache 0.02700352668762207
+2019-01-22 05:39:02,519 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:39:03,451 - INFO - 682 : Received pipeline: {"pipeline_id": "392ae29aa1d84ff7b6b31de796236ecc595e062d", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"norm": "max"}, "class_name": "SparseNormalizer", "param_args": [], "module": "automl.client.core.common.model_wrappers"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": null, "solver": "saga", "C": 159.98587196060572, "penalty": "l2", "multi_class": "ovr"}, "class_name": "LogisticRegression", "param_args": [], "module": "sklearn.linear_model"}]}
+2019-01-22 05:39:03,677 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:39:03,677 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_18]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:39:03,678 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:03,678 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_18] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:39:03,679 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_18] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:39:03,679 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_18
+2019-01-22 05:39:03,679 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:03,680 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:03,680 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:03,681 - INFO - 490 : Start executing pipeline {"pipeline_id": "392ae29aa1d84ff7b6b31de796236ecc595e062d", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"norm": "max"}, "class_name": "SparseNormalizer", "param_args": [], "module": "automl.client.core.common.model_wrappers"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": null, "solver": "saga", "C": 159.98587196060572, "penalty": "l2", "multi_class": "ovr"}, "class_name": "LogisticRegression", "param_args": [], "module": "sklearn.linear_model"}]}.
+2019-01-22 05:39:03,681 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:39:08,601 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:17,086 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:17,132 - INFO - 664 : Pipeline execution finished with a score of 0.6423904218630755
+2019-01-22 05:39:17,134 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:39:17,709 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:39:17,711 - INFO - 1269 : The following metrics have been logged for the child run: {'balanced_accuracy': 0.5004382470720586, 'confusion_matrix': <class 'dict'>, 'f1_score_macro': 0.4548902696399608, 'recall_score_macro': 0.5004382470720586, 'recall_score_micro': 0.8183598152059354, 'average_precision_score_weighted': 0.2521949857987204, 'recall_score_weighted': 0.8183598152059354, 'average_precision_score_micro': 0.2521949857987204, 'log_loss': 0.45415416131918185, 'AUC_macro': 0.6423904218630755, 'f1_score_micro': 0.8183598152059354, 'f1_score_weighted': 0.7405290630913302, 'accuracy': 0.8183598152059354, 'AUC_weighted': 0.6423904218630755, 'precision_score_micro': 0.8183598152059354, 'precision_score_macro': 0.5217615966040867, 'precision_score_weighted': 0.7138655886011354, 'weighted_accuracy': 0.9508007005465121, 'AUC_micro': 0.6423904218630755, 'norm_macro_recall': 0.0022191097582396234, 'average_precision_score_macro': 0.2521949857987204, 'accuracy_table': <class 'dict'>, 'train time': <class 'float'>}.
+2019-01-22 05:39:18,611 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:18,752 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:18,976 - INFO - 627 : Start iteration: 19
+2019-01-22 05:39:18,976 - INFO - 491 : Loading from file cache
+2019-01-22 05:39:18,977 - INFO - 96 : ActivityStarted
+2019-01-22 05:39:18,977 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:39:18,978 - INFO - 96 : ActivityStarted
+2019-01-22 05:39:18,978 - INFO - 491 : Getting data for key: X
+2019-01-22 05:39:18,992 - INFO - 491 : Getting data for key: y
+2019-01-22 05:39:18,993 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:39:18,993 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:39:18,994 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:39:18,995 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:39:18,996 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:39:18,997 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:39:18,997 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:39:18,998 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:39:19,003 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:39:19,005 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:39:19,005 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=27.0 [ms]
+2019-01-22 05:39:19,006 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:39:19,007 - INFO - 544 : time taken for loading from cache 0.030997276306152344
+2019-01-22 05:39:19,007 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:39:20,374 - INFO - 682 : Received pipeline: {"objects": [{"spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "module": "sklearn.preprocessing", "prepared_kwargs": {}, "param_args": []}, {"spec_class": "sklearn", "param_kwargs": {"n_estimators": 800, "reg_alpha": 0.21052631578947367, "colsample_bytree": 0.7922222222222222, "max_depth": 4, "min_child_weight": 8, "max_bin": 380, "min_split_gain": 0.15789473684210525, "subsample": 1, "num_leaves": 236, "reg_lambda": 0.5789473684210527, "learning_rate": 0.021060526315789474, "min_data_in_leaf": 0.003457931034482759, "boosting_type": "goss"}, "class_name": "LightGBMClassifier", "module": "automl.client.core.common.model_wrappers", "prepared_kwargs": {}, "param_args": []}], "pipeline_id": "dcc56de4033d8d068100ccea870b6038931248ec"}
+2019-01-22 05:39:20,590 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:39:20,591 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_19]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:39:20,592 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:20,592 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_19] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:39:20,593 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_19] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:39:20,593 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_19
+2019-01-22 05:39:20,594 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:20,594 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:20,595 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:20,595 - INFO - 490 : Start executing pipeline {"objects": [{"spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "module": "sklearn.preprocessing", "prepared_kwargs": {}, "param_args": []}, {"spec_class": "sklearn", "param_kwargs": {"n_estimators": 800, "reg_alpha": 0.21052631578947367, "colsample_bytree": 0.7922222222222222, "max_depth": 4, "min_child_weight": 8, "max_bin": 380, "min_split_gain": 0.15789473684210525, "subsample": 1, "num_leaves": 236, "reg_lambda": 0.5789473684210527, "learning_rate": 0.021060526315789474, "min_data_in_leaf": 0.003457931034482759, "boosting_type": "goss"}, "class_name": "LightGBMClassifier", "module": "automl.client.core.common.model_wrappers", "prepared_kwargs": {}, "param_args": []}], "pipeline_id": "dcc56de4033d8d068100ccea870b6038931248ec"}.
+2019-01-22 05:39:20,596 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:39:28,612 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:38,614 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:47,621 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:47,622 - INFO - 664 : Pipeline execution finished with a score of 0.8235087956805553
+2019-01-22 05:39:47,623 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:39:48,122 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:39:48,123 - INFO - 1269 : The following metrics have been logged for the child run: {'confusion_matrix': <class 'dict'>, 'recall_score_macro': 0.5305259004098629, 'AUC_micro': 0.8235087956805553, 'accuracy': 0.8172578327105491, 'log_loss': 0.3614754506377575, 'f1_score_macro': 0.5193509370557134, 'recall_score_micro': 0.8172578327105491, 'average_precision_score_micro': 0.4258561401204869, 'f1_score_micro': 0.8172578327105491, 'weighted_accuracy': 0.936684829656129, 'balanced_accuracy': 0.5305259004098629, 'precision_score_micro': 0.8172578327105491, 'f1_score_weighted': 0.7621985266698449, 'recall_score_weighted': 0.8172578327105491, 'average_precision_score_weighted': 0.4258561401204869, 'average_precision_score_macro': 0.4258561401204869, 'accuracy_table': <class 'dict'>, 'AUC_weighted': 0.8235087956805553, 'precision_score_weighted': 0.7620211126457971, 'AUC_macro': 0.8235087956805553, 'precision_score_macro': 0.6399707632762024, 'norm_macro_recall': 0.061051800819725964, 'train time': <class 'float'>}.
+2019-01-22 05:39:48,616 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:49,557 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:49,723 - INFO - 627 : Start iteration: 20
+2019-01-22 05:39:49,723 - INFO - 491 : Loading from file cache
+2019-01-22 05:39:49,724 - INFO - 96 : ActivityStarted
+2019-01-22 05:39:49,725 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.18 [ms]
+2019-01-22 05:39:49,725 - INFO - 96 : ActivityStarted
+2019-01-22 05:39:49,726 - INFO - 491 : Getting data for key: X
+2019-01-22 05:39:49,739 - INFO - 491 : Getting data for key: y
+2019-01-22 05:39:49,741 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:39:49,741 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:39:49,742 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:39:49,743 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:39:49,743 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:39:49,744 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:39:49,745 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:39:49,745 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:39:49,749 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:39:49,752 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:39:49,753 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=27.82 [ms]
+2019-01-22 05:39:49,754 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:39:49,754 - INFO - 544 : time taken for loading from cache 0.031002283096313477
+2019-01-22 05:39:49,754 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:39:50,751 - INFO - 682 : Received pipeline: {"pipeline_id": "178bd6930885c880931e5e07e62b7cf13a55983b", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": "balanced", "solver": "saga", "C": 1.2067926406393288, "penalty": "l1", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "param_args": [], "module": "sklearn.linear_model"}]}
+2019-01-22 05:39:51,756 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:39:51,757 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_20]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:39:51,758 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:51,758 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_20] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:39:51,759 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_20] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:39:51,759 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_20
+2019-01-22 05:39:51,759 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:51,760 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:51,761 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:39:51,761 - INFO - 490 : Start executing pipeline {"pipeline_id": "178bd6930885c880931e5e07e62b7cf13a55983b", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"class_weight": "balanced", "solver": "saga", "C": 1.2067926406393288, "penalty": "l1", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "param_args": [], "module": "sklearn.linear_model"}]}.
+2019-01-22 05:39:51,762 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:39:58,618 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:08,620 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:18,622 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:18,971 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:18,971 - INFO - 664 : Pipeline execution finished with a score of 0.6554844217923682
+2019-01-22 05:40:18,972 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:40:19,497 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:40:19,504 - INFO - 1269 : The following metrics have been logged for the child run: {'average_precision_score_weighted': 0.2719268813677653, 'recall_score_weighted': 0.5599409458823332, 'precision_score_macro': 0.567056838919721, 'accuracy_table': <class 'dict'>, 'f1_score_macro': 0.5131624315762322, 'confusion_matrix': <class 'dict'>, 'average_precision_score_macro': 0.2719268813677653, 'f1_score_micro': 0.5599409458823332, 'balanced_accuracy': 0.6139345937973563, 'norm_macro_recall': 0.22786918759471247, 'recall_score_micro': 0.5599409458823332, 'weighted_accuracy': 0.5374771629581767, 'precision_score_micro': 0.5599409458823332, 'AUC_weighted': 0.6554844217923682, 'AUC_macro': 0.6554844217923682, 'log_loss': 0.6446267999746437, 'AUC_micro': 0.6554844217923682, 'f1_score_weighted': 0.6099564941756022, 'recall_score_macro': 0.6139345937973563, 'precision_score_weighted': 0.7739221548728616, 'average_precision_score_micro': 0.2719268813677653, 'accuracy': 0.5599409458823332, 'train time': <class 'float'>}.
+2019-01-22 05:40:20,667 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:20,796 - INFO - 627 : Start iteration: 21
+2019-01-22 05:40:20,797 - INFO - 491 : Loading from file cache
+2019-01-22 05:40:20,797 - INFO - 96 : ActivityStarted
+2019-01-22 05:40:20,798 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:40:20,799 - INFO - 96 : ActivityStarted
+2019-01-22 05:40:20,799 - INFO - 491 : Getting data for key: X
+2019-01-22 05:40:20,812 - INFO - 491 : Getting data for key: y
+2019-01-22 05:40:20,814 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:40:20,814 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:40:20,815 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:40:20,816 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:40:20,817 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:40:20,817 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:40:20,818 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:40:20,819 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:40:20,824 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:40:20,826 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:40:20,826 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=27.0 [ms]
+2019-01-22 05:40:20,827 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:40:20,828 - INFO - 544 : time taken for loading from cache 0.03099966049194336
+2019-01-22 05:40:20,828 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:40:21,800 - INFO - 682 : Received pipeline: {"objects": [{"spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "module": "sklearn.preprocessing", "prepared_kwargs": {}, "param_args": []}, {"spec_class": "sklearn", "param_kwargs": {"penalty": "l2", "C": 1.7575106248547894, "class_weight": "balanced", "solver": "newton-cg", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "module": "sklearn.linear_model", "prepared_kwargs": {}, "param_args": []}], "pipeline_id": "50556587a9943fb4447f30c901cbdf0785444d6d"}
+2019-01-22 05:40:22,034 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:40:22,034 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_21]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:40:22,035 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:22,035 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_21] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:40:22,035 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_21] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:40:22,036 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_21
+2019-01-22 05:40:22,036 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:22,036 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:22,037 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:22,038 - INFO - 490 : Start executing pipeline {"objects": [{"spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "module": "sklearn.preprocessing", "prepared_kwargs": {}, "param_args": []}, {"spec_class": "sklearn", "param_kwargs": {"penalty": "l2", "C": 1.7575106248547894, "class_weight": "balanced", "solver": "newton-cg", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "module": "sklearn.linear_model", "prepared_kwargs": {}, "param_args": []}], "pipeline_id": "50556587a9943fb4447f30c901cbdf0785444d6d"}.
+2019-01-22 05:40:22,038 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:40:28,679 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:39,451 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:41,879 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:41,880 - INFO - 664 : Pipeline execution finished with a score of 0.6553718844386113
+2019-01-22 05:40:41,881 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:40:42,260 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:40:42,272 - INFO - 1269 : The following metrics have been logged for the child run: {'accuracy_table': <class 'dict'>, 'weighted_accuracy': 0.5382828264351256, 'average_precision_score_weighted': 0.2717867578503301, 'balanced_accuracy': 0.614359822803355, 'precision_score_macro': 0.5672992590237035, 'average_precision_score_micro': 0.2717867578503301, 'AUC_weighted': 0.6553718844386113, 'log_loss': 0.6444929761268485, 'f1_score_macro': 0.5137006766058206, 'recall_score_micro': 0.5606348317649166, 'f1_score_weighted': 0.6106022502832672, 'confusion_matrix': <class 'dict'>, 'accuracy': 0.5606348317649166, 'norm_macro_recall': 0.22871964560671013, 'recall_score_macro': 0.614359822803355, 'average_precision_score_macro': 0.2717867578503301, 'recall_score_weighted': 0.5606348317649166, 'AUC_macro': 0.6553718844386113, 'precision_score_weighted': 0.7741042128277186, 'f1_score_micro': 0.5606348317649166, 'precision_score_micro': 0.5606348317649166, 'AUC_micro': 0.6553718844386113, 'train time': <class 'float'>}.
+2019-01-22 05:40:43,457 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:43,594 - INFO - 627 : Start iteration: 22
+2019-01-22 05:40:43,594 - INFO - 491 : Loading from file cache
+2019-01-22 05:40:43,594 - INFO - 96 : ActivityStarted
+2019-01-22 05:40:43,595 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:40:43,595 - INFO - 96 : ActivityStarted
+2019-01-22 05:40:43,596 - INFO - 491 : Getting data for key: X
+2019-01-22 05:40:43,607 - INFO - 491 : Getting data for key: y
+2019-01-22 05:40:43,608 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:40:43,609 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:40:43,610 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:40:43,611 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:40:43,611 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:40:43,612 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:40:43,612 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:40:43,613 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:40:43,617 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:40:43,619 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:40:43,619 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=24.0 [ms]
+2019-01-22 05:40:43,620 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:40:43,621 - INFO - 544 : time taken for loading from cache 0.02700066566467285
+2019-01-22 05:40:43,621 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:40:44,750 - INFO - 682 : Received pipeline: {"pipeline_id": "f862dbe62b0c392a5a95f0e74982cac169e8f513", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": false, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "goss", "num_leaves": 230, "min_child_weight": 1, "colsample_bytree": 0.6933333333333332, "reg_lambda": 0.05263157894736842, "reg_alpha": 0.15789473684210525, "min_data_in_leaf": 0.03448931034482759, "subsample": 1, "learning_rate": 0.06842421052631578, "min_split_gain": 0.3157894736842105, "max_bin": 280, "n_estimators": 200, "max_depth": 3}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}
+2019-01-22 05:40:45,085 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:40:45,085 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_22]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:40:45,086 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:45,086 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_22] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:40:45,087 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_22] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:40:45,087 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_22
+2019-01-22 05:40:45,088 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:45,088 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:45,089 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:45,089 - INFO - 490 : Start executing pipeline {"pipeline_id": "f862dbe62b0c392a5a95f0e74982cac169e8f513", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": false, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "goss", "num_leaves": 230, "min_child_weight": 1, "colsample_bytree": 0.6933333333333332, "reg_lambda": 0.05263157894736842, "reg_alpha": 0.15789473684210525, "min_data_in_leaf": 0.03448931034482759, "subsample": 1, "learning_rate": 0.06842421052631578, "min_split_gain": 0.3157894736842105, "max_bin": 280, "n_estimators": 200, "max_depth": 3}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}.
+2019-01-22 05:40:45,089 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:40:49,912 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:54,355 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:54,383 - INFO - 664 : Pipeline execution finished with a score of 0.7643063989402741
+2019-01-22 05:40:54,391 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:40:56,101 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:40:56,107 - INFO - 1269 : The following metrics have been logged for the child run: {'average_precision_score_weighted': 0.35207615810385395, 'precision_score_macro': 0.6047196420204447, 'norm_macro_recall': 0.010087535141322813, 'log_loss': 0.4053438688858141, 'f1_score_macro': 0.46487133542478104, 'average_precision_score_macro': 0.35207615810385395, 'recall_score_weighted': 0.8192987740105228, 'precision_score_weighted': 0.7441815912005892, 'precision_score_micro': 0.8192987740105228, 'balanced_accuracy': 0.5050437675706614, 'AUC_weighted': 0.7643063989402741, 'weighted_accuracy': 0.9502180448802251, 'AUC_macro': 0.7643063989402741, 'f1_score_micro': 0.8192987740105228, 'recall_score_macro': 0.5050437675706614, 'accuracy_table': <class 'dict'>, 'accuracy': 0.8192987740105228, 'AUC_micro': 0.7643063989402741, 'average_precision_score_micro': 0.35207615810385395, 'confusion_matrix': <class 'dict'>, 'f1_score_weighted': 0.7443233652149314, 'recall_score_micro': 0.8192987740105228, 'train time': <class 'float'>}.
+2019-01-22 05:40:57,174 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:57,306 - INFO - 627 : Start iteration: 23
+2019-01-22 05:40:57,307 - INFO - 491 : Loading from file cache
+2019-01-22 05:40:57,307 - INFO - 96 : ActivityStarted
+2019-01-22 05:40:57,309 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.99 [ms]
+2019-01-22 05:40:57,309 - INFO - 96 : ActivityStarted
+2019-01-22 05:40:57,309 - INFO - 491 : Getting data for key: X
+2019-01-22 05:40:57,323 - INFO - 491 : Getting data for key: y
+2019-01-22 05:40:57,324 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:40:57,325 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:40:57,326 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:40:57,327 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:40:57,328 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:40:57,329 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:40:57,329 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:40:57,330 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:40:57,335 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:40:57,336 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:40:57,337 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=27.98 [ms]
+2019-01-22 05:40:57,338 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:40:57,338 - INFO - 544 : time taken for loading from cache 0.030968427658081055
+2019-01-22 05:40:57,339 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:40:58,439 - INFO - 682 : Received pipeline: {"pipeline_id": "e09eb9cdebe15e12ee0a8dc0b24de012ccb5aef5", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 245, "min_child_weight": 7, "colsample_bytree": 0.7922222222222222, "reg_lambda": 1, "reg_alpha": 0.05263157894736842, "min_data_in_leaf": 0.017249655172413794, "subsample": 0.3963157894736842, "learning_rate": 0.04211105263157895, "min_split_gain": 0.15789473684210525, "max_bin": 150, "n_estimators": 400, "max_depth": 6}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}
+2019-01-22 05:40:58,638 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:40:58,638 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_23]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:40:58,639 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:58,639 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_23] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:40:58,639 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_23] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:40:58,640 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_23
+2019-01-22 05:40:58,640 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:58,641 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:58,642 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:40:58,642 - INFO - 490 : Start executing pipeline {"pipeline_id": "e09eb9cdebe15e12ee0a8dc0b24de012ccb5aef5", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 245, "min_child_weight": 7, "colsample_bytree": 0.7922222222222222, "reg_lambda": 1, "reg_alpha": 0.05263157894736842, "min_data_in_leaf": 0.017249655172413794, "subsample": 0.3963157894736842, "learning_rate": 0.04211105263157895, "min_split_gain": 0.15789473684210525, "max_bin": 150, "n_estimators": 400, "max_depth": 6}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}.
+2019-01-22 05:40:58,642 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:40:59,914 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:09,915 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:14,098 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:14,102 - INFO - 664 : Pipeline execution finished with a score of 0.8188636350106521
+2019-01-22 05:41:14,103 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:41:14,581 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:41:14,583 - INFO - 1269 : The following metrics have been logged for the child run: {'average_precision_score_micro': 0.3976807857917378, 'f1_score_micro': 0.8128905024348994, 'average_precision_score_weighted': 0.3976807857917378, 'AUC_weighted': 0.8188636350106521, 'f1_score_macro': 0.5227348302502886, 'log_loss': 0.3642960121237573, 'accuracy': 0.8128905024348994, 'weighted_accuracy': 0.9301265698749637, 'recall_score_macro': 0.5314024278862486, 'precision_score_weighted': 0.7541387604630612, 'precision_score_micro': 0.8128905024348994, 'accuracy_table': <class 'dict'>, 'precision_score_macro': 0.6171959991917129, 'norm_macro_recall': 0.06280485577249725, 'average_precision_score_macro': 0.3976807857917378, 'AUC_micro': 0.8188636350106521, 'recall_score_micro': 0.8128905024348994, 'AUC_macro': 0.8188636350106521, 'f1_score_weighted': 0.7615679691205983, 'recall_score_weighted': 0.8128905024348994, 'balanced_accuracy': 0.5314024278862486, 'confusion_matrix': <class 'dict'>, 'train time': <class 'float'>}.
+2019-01-22 05:41:15,800 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:15,949 - INFO - 627 : Start iteration: 24
+2019-01-22 05:41:15,949 - INFO - 491 : Loading from file cache
+2019-01-22 05:41:15,950 - INFO - 96 : ActivityStarted
+2019-01-22 05:41:15,950 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=0.0 [ms]
+2019-01-22 05:41:15,951 - INFO - 96 : ActivityStarted
+2019-01-22 05:41:15,951 - INFO - 491 : Getting data for key: X
+2019-01-22 05:41:15,963 - INFO - 491 : Getting data for key: y
+2019-01-22 05:41:15,964 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:41:15,964 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:41:15,965 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:41:15,965 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:41:15,966 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:41:15,966 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:41:15,967 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:41:15,968 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:41:15,972 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:41:15,974 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:41:15,974 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=23.0 [ms]
+2019-01-22 05:41:15,975 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:41:15,975 - INFO - 544 : time taken for loading from cache 0.025997638702392578
+2019-01-22 05:41:15,975 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:41:16,982 - INFO - 682 : Received pipeline: {"objects": [{"spec_class": "preproc", "param_kwargs": {"norm": "l2"}, "class_name": "SparseNormalizer", "module": "automl.client.core.common.model_wrappers", "prepared_kwargs": {}, "param_args": []}, {"spec_class": "sklearn", "param_kwargs": {"penalty": "l2", "C": 159.98587196060572, "class_weight": null, "solver": "lbfgs", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "module": "sklearn.linear_model", "prepared_kwargs": {}, "param_args": []}], "pipeline_id": "9f1917eb5d9ca73791262892add62d34dc5d65bf"}
+2019-01-22 05:41:17,225 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:41:17,225 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_24]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:41:17,226 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:17,226 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_24] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:41:17,226 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_24] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:41:17,227 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_24
+2019-01-22 05:41:17,228 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:17,228 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:17,229 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:17,229 - INFO - 490 : Start executing pipeline {"objects": [{"spec_class": "preproc", "param_kwargs": {"norm": "l2"}, "class_name": "SparseNormalizer", "module": "automl.client.core.common.model_wrappers", "prepared_kwargs": {}, "param_args": []}, {"spec_class": "sklearn", "param_kwargs": {"penalty": "l2", "C": 159.98587196060572, "class_weight": null, "solver": "lbfgs", "multi_class": "multinomial"}, "class_name": "LogisticRegression", "module": "sklearn.linear_model", "prepared_kwargs": {}, "param_args": []}], "pipeline_id": "9f1917eb5d9ca73791262892add62d34dc5d65bf"}.
+2019-01-22 05:41:17,230 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:41:19,917 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:28,831 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:28,844 - INFO - 664 : Pipeline execution finished with a score of 0.6451032060173734
+2019-01-22 05:41:28,846 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:41:29,615 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:41:29,626 - INFO - 1269 : The following metrics have been logged for the child run: {'precision_score_macro': 0.570541720884429, 'balanced_accuracy': 0.5029004861693572, 'precision_score_weighted': 0.7318068391711302, 'accuracy': 0.8183189488900275, 'recall_score_weighted': 0.8183189488900275, 'average_precision_score_macro': 0.2568949371580747, 'recall_score_macro': 0.5029004861693572, 'f1_score_weighted': 0.7425811920041616, 'weighted_accuracy': 0.9497149550338826, 'accuracy_table': <class 'dict'>, 'AUC_micro': 0.6451032060173734, 'f1_score_macro': 0.4608774590191193, 'confusion_matrix': <class 'dict'>, 'norm_macro_recall': 0.006550328644142756, 'average_precision_score_micro': 0.2568949371580747, 'precision_score_micro': 0.8183189488900275, 'recall_score_micro': 0.8183189488900275, 'log_loss': 0.4968051723958825, 'AUC_macro': 0.6451032060173734, 'f1_score_micro': 0.8183189488900275, 'average_precision_score_weighted': 0.2568949371580747, 'AUC_weighted': 0.6451032060173734, 'train time': <class 'float'>}.
+2019-01-22 05:41:29,920 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:30,789 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:30,915 - INFO - 627 : Start iteration: 25
+2019-01-22 05:41:30,915 - INFO - 491 : Loading from file cache
+2019-01-22 05:41:30,916 - INFO - 96 : ActivityStarted
+2019-01-22 05:41:30,916 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=0.0 [ms]
+2019-01-22 05:41:30,916 - INFO - 96 : ActivityStarted
+2019-01-22 05:41:30,918 - INFO - 491 : Getting data for key: X
+2019-01-22 05:41:30,936 - INFO - 491 : Getting data for key: y
+2019-01-22 05:41:30,937 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:41:30,938 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:41:30,938 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:41:30,939 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:41:30,940 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:41:30,941 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:41:30,941 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:41:30,942 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:41:30,947 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:41:30,948 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:41:30,949 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=32.97 [ms]
+2019-01-22 05:41:30,950 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:41:30,950 - INFO - 544 : time taken for loading from cache 0.03499794006347656
+2019-01-22 05:41:30,950 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:41:32,243 - INFO - 682 : Received pipeline: {"pipeline_id": "85554618fc0a14ea1256d0fc3ca828b298265e94", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 236, "min_child_weight": 10, "colsample_bytree": 0.5944444444444444, "reg_lambda": 0.7368421052631579, "reg_alpha": 0.3684210526315789, "min_data_in_leaf": 0.03448931034482759, "subsample": 0.7426315789473684, "learning_rate": 0.05263631578947369, "min_split_gain": 0.05263157894736842, "max_bin": 110, "n_estimators": 600, "max_depth": 2}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}
+2019-01-22 05:41:32,447 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:41:32,448 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_25]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:41:32,449 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:32,449 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_25] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:41:32,449 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_25] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:41:32,449 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_25
+2019-01-22 05:41:32,450 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:32,450 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:32,451 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:32,452 - INFO - 490 : Start executing pipeline {"pipeline_id": "85554618fc0a14ea1256d0fc3ca828b298265e94", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {}, "class_name": "MaxAbsScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 236, "min_child_weight": 10, "colsample_bytree": 0.5944444444444444, "reg_lambda": 0.7368421052631579, "reg_alpha": 0.3684210526315789, "min_data_in_leaf": 0.03448931034482759, "subsample": 0.7426315789473684, "learning_rate": 0.05263631578947369, "min_split_gain": 0.05263157894736842, "max_bin": 110, "n_estimators": 600, "max_depth": 2}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}.
+2019-01-22 05:41:32,452 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:41:39,921 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:45,388 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:45,394 - INFO - 664 : Pipeline execution finished with a score of 0.7867821969012225
+2019-01-22 05:41:45,395 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:41:45,789 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:41:45,794 - INFO - 1269 : The following metrics have been logged for the child run: {'accuracy_table': <class 'dict'>, 'average_precision_score_macro': 0.37379414380271575, 'confusion_matrix': <class 'dict'>, 'balanced_accuracy': 0.5057799570621838, 'AUC_micro': 0.7867821969012225, 'recall_score_weighted': 0.8198293695922949, 'precision_score_macro': 0.625790663058519, 'log_loss': 0.38942561461694186, 'average_precision_score_micro': 0.37379414380271575, 'AUC_macro': 0.7867821969012225, 'accuracy': 0.8198293695922949, 'average_precision_score_weighted': 0.37379414380271575, 'norm_macro_recall': 0.011559914124367543, 'f1_score_macro': 0.4660673220174815, 'recall_score_macro': 0.5057799570621838, 'precision_score_micro': 0.8198293695922949, 'AUC_weighted': 0.7867821969012225, 'precision_score_weighted': 0.7519388156694508, 'f1_score_weighted': 0.7449633420728914, 'recall_score_micro': 0.8198293695922949, 'weighted_accuracy': 0.950652087305016, 'f1_score_micro': 0.8198293695922949, 'train time': <class 'float'>}.
+2019-01-22 05:41:47,214 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:47,346 - INFO - 627 : Start iteration: 26
+2019-01-22 05:41:47,347 - INFO - 491 : Loading from file cache
+2019-01-22 05:41:47,348 - INFO - 96 : ActivityStarted
+2019-01-22 05:41:47,348 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=0.0 [ms]
+2019-01-22 05:41:47,348 - INFO - 96 : ActivityStarted
+2019-01-22 05:41:47,348 - INFO - 491 : Getting data for key: X
+2019-01-22 05:41:47,362 - INFO - 491 : Getting data for key: y
+2019-01-22 05:41:47,363 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:41:47,364 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:41:47,364 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:41:47,365 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:41:47,366 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:41:47,366 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:41:47,367 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:41:47,367 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:41:47,374 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:41:47,376 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:41:47,378 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=29.37 [ms]
+2019-01-22 05:41:47,378 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:41:47,379 - INFO - 544 : time taken for loading from cache 0.03200197219848633
+2019-01-22 05:41:47,379 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:41:48,499 - INFO - 682 : Received pipeline: {"pipeline_id": "606ecb9e168a01faa04bab97b8e922fef1548155", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 80, "min_child_weight": 1, "colsample_bytree": 0.1988888888888889, "reg_lambda": 0.8421052631578947, "reg_alpha": 0, "min_data_in_leaf": 0.010353793103448278, "subsample": 0.3468421052631579, "learning_rate": 0.03158578947368421, "min_split_gain": 1, "max_bin": 30, "n_estimators": 800, "max_depth": 8}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}
+2019-01-22 05:41:48,731 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:41:48,731 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_26]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:41:48,732 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:48,732 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_26] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:41:48,733 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_26] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:41:48,733 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_26
+2019-01-22 05:41:48,733 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:48,734 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:48,735 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:41:48,735 - INFO - 490 : Start executing pipeline {"pipeline_id": "606ecb9e168a01faa04bab97b8e922fef1548155", "objects": [{"prepared_kwargs": {}, "spec_class": "preproc", "param_kwargs": {"with_std": true, "with_mean": false}, "class_name": "StandardScaler", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "spec_class": "sklearn", "param_kwargs": {"boosting_type": "gbdt", "num_leaves": 80, "min_child_weight": 1, "colsample_bytree": 0.1988888888888889, "reg_lambda": 0.8421052631578947, "reg_alpha": 0, "min_data_in_leaf": 0.010353793103448278, "subsample": 0.3468421052631579, "learning_rate": 0.03158578947368421, "min_split_gain": 1, "max_bin": 30, "n_estimators": 800, "max_depth": 8}, "class_name": "LightGBMClassifier", "param_args": [], "module": "automl.client.core.common.model_wrappers"}]}.
+2019-01-22 05:41:48,736 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:41:49,922 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:00,104 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:02,889 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:02,894 - INFO - 664 : Pipeline execution finished with a score of 0.8010179154791487
+2019-01-22 05:42:02,901 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:42:03,495 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:42:03,502 - INFO - 1269 : The following metrics have been logged for the child run: {'confusion_matrix': <class 'dict'>, 'AUC_weighted': 0.8010179154791487, 'weighted_accuracy': 0.9479160411843457, 'average_precision_score_weighted': 0.39195987324647086, 'log_loss': 0.3812424151204934, 'precision_score_micro': 0.8192579493524293, 'precision_score_weighted': 0.7562675998911768, 'f1_score_micro': 0.8192579493524293, 'average_precision_score_micro': 0.39195987324647086, 'recall_score_weighted': 0.8192579493524293, 'accuracy': 0.8192579493524293, 'balanced_accuracy': 0.5103885923665511, 'recall_score_macro': 0.5103885923665511, 'recall_score_micro': 0.8192579493524293, 'AUC_micro': 0.8010179154791487, 'precision_score_macro': 0.6348295128078993, 'accuracy_table': <class 'dict'>, 'AUC_macro': 0.8010179154791487, 'f1_score_macro': 0.47720234406757955, 'f1_score_weighted': 0.7485885008323936, 'average_precision_score_macro': 0.39195987324647086, 'norm_macro_recall': 0.02077718473310215, 'train time': <class 'float'>}.
+2019-01-22 05:42:04,733 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:04,931 - INFO - 627 : Start iteration: 27
+2019-01-22 05:42:04,931 - INFO - 491 : Loading from file cache
+2019-01-22 05:42:04,932 - INFO - 96 : ActivityStarted
+2019-01-22 05:42:04,933 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:42:04,933 - INFO - 96 : ActivityStarted
+2019-01-22 05:42:04,934 - INFO - 491 : Getting data for key: X
+2019-01-22 05:42:04,946 - INFO - 491 : Getting data for key: y
+2019-01-22 05:42:04,947 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:42:04,948 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:42:04,948 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:42:04,949 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:42:04,949 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:42:04,950 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:42:04,951 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:42:04,951 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:42:04,956 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:42:04,958 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:42:04,958 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=25.0 [ms]
+2019-01-22 05:42:04,959 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:42:04,960 - INFO - 544 : time taken for loading from cache 0.028995513916015625
+2019-01-22 05:42:04,960 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:42:06,047 - INFO - 682 : Received pipeline: {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"bootstrap": true, "class_weight": null, "max_features": 0.3, "min_samples_split": 0.19736842105263158, "min_samples_leaf": 0.035789473684210524, "criterion": "entropy", "oob_score": true, "n_estimators": 100}, "class_name": "RandomForestClassifier", "spec_class": "sklearn", "param_args": [], "module": "sklearn.ensemble"}], "pipeline_id": "b547477210edee561005e580d1b742a1d87c2cba"}
+2019-01-22 05:42:06,290 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:42:06,290 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_27]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:42:06,291 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:06,291 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_27] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:42:06,291 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_27] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:42:06,292 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_27
+2019-01-22 05:42:06,292 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:06,292 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:06,294 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:06,294 - INFO - 490 : Start executing pipeline {"objects": [{"prepared_kwargs": {}, "param_kwargs": {}, "class_name": "MaxAbsScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"bootstrap": true, "class_weight": null, "max_features": 0.3, "min_samples_split": 0.19736842105263158, "min_samples_leaf": 0.035789473684210524, "criterion": "entropy", "oob_score": true, "n_estimators": 100}, "class_name": "RandomForestClassifier", "spec_class": "sklearn", "param_args": [], "module": "sklearn.ensemble"}], "pipeline_id": "b547477210edee561005e580d1b742a1d87c2cba"}.
+2019-01-22 05:42:06,294 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:42:10,251 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:20,262 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:22,572 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:22,582 - INFO - 664 : Pipeline execution finished with a score of 0.7016921969735973
+2019-01-22 05:42:22,583 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:42:23,147 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:42:23,156 - INFO - 1269 : The following metrics have been logged for the child run: {'log_loss': 0.4370405340877069, 'f1_score_micro': 0.8208498360765004, 'AUC_micro': 0.7016921969735973, 'AUC_weighted': 0.7016921969735973, 'average_precision_score_macro': 0.31106835207393085, 'accuracy': 0.8208498360765002, 'norm_macro_recall': 0.0, 'recall_score_weighted': 0.8208498360765002, 'AUC_macro': 0.7016921969735973, 'recall_score_micro': 0.8208498360765002, 'precision_score_weighted': 0.6738035707480139, 'accuracy_table': <class 'dict'>, 'f1_score_weighted': 0.740090908955143, 'confusion_matrix': <class 'dict'>, 'weighted_accuracy': 0.9545112824121503, 'precision_score_micro': 0.8208498360765002, 'precision_score_macro': 0.4104249180382501, 'balanced_accuracy': 0.5, 'recall_score_macro': 0.5, 'f1_score_macro': 0.4508043815989288, 'average_precision_score_micro': 0.31106835207393085, 'average_precision_score_weighted': 0.31106835207393085, 'train time': <class 'float'>}.
+2019-01-22 05:42:24,354 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:24,489 - INFO - 627 : Start iteration: 28
+2019-01-22 05:42:24,490 - INFO - 491 : Loading from file cache
+2019-01-22 05:42:24,490 - INFO - 96 : ActivityStarted
+2019-01-22 05:42:24,491 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=1.0 [ms]
+2019-01-22 05:42:24,491 - INFO - 96 : ActivityStarted
+2019-01-22 05:42:24,492 - INFO - 491 : Getting data for key: X
+2019-01-22 05:42:24,504 - INFO - 491 : Getting data for key: y
+2019-01-22 05:42:24,505 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:42:24,505 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:42:24,506 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:42:24,506 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:42:24,508 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:42:24,508 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:42:24,509 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:42:24,510 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:42:24,514 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:42:24,516 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:42:24,516 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=25.0 [ms]
+2019-01-22 05:42:24,517 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:42:24,518 - INFO - 544 : time taken for loading from cache 0.028002023696899414
+2019-01-22 05:42:24,518 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:42:25,626 - INFO - 682 : Received pipeline: {"objects": [{"prepared_kwargs": {}, "param_kwargs": {"with_mean": false, "with_std": true}, "class_name": "StandardScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"bootstrap": true, "class_weight": null, "max_features": 0.5, "min_samples_split": 0.056842105263157895, "min_samples_leaf": 0.01, "criterion": "entropy", "oob_score": true, "n_estimators": 200}, "class_name": "RandomForestClassifier", "spec_class": "sklearn", "param_args": [], "module": "sklearn.ensemble"}], "pipeline_id": "8946fc9e20a71622651f72aa5ddeecb3e48b7c23"}
+2019-01-22 05:42:25,941 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:42:25,942 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_28]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:42:25,942 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:25,943 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_28] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:42:25,943 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_28] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:42:25,943 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_28
+2019-01-22 05:42:25,944 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:25,944 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:25,946 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:25,946 - INFO - 490 : Start executing pipeline {"objects": [{"prepared_kwargs": {}, "param_kwargs": {"with_mean": false, "with_std": true}, "class_name": "StandardScaler", "spec_class": "preproc", "param_args": [], "module": "sklearn.preprocessing"}, {"prepared_kwargs": {}, "param_kwargs": {"bootstrap": true, "class_weight": null, "max_features": 0.5, "min_samples_split": 0.056842105263157895, "min_samples_leaf": 0.01, "criterion": "entropy", "oob_score": true, "n_estimators": 200}, "class_name": "RandomForestClassifier", "spec_class": "sklearn", "param_args": [], "module": "sklearn.ensemble"}], "pipeline_id": "8946fc9e20a71622651f72aa5ddeecb3e48b7c23"}.
+2019-01-22 05:42:25,946 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:42:30,263 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:40,266 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:42:50,267 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:00,269 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:10,274 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:20,277 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:30,279 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:34,433 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:34,439 - INFO - 664 : Pipeline execution finished with a score of 0.7682370906024041
+2019-01-22 05:43:34,441 - INFO - 695 : Start logging metrics for child run.
+2019-01-22 05:43:34,962 - WARNING - 1287 : Did not recognize metric: train time. Will not log.
+2019-01-22 05:43:34,970 - INFO - 1269 : The following metrics have been logged for the child run: {'AUC_weighted': 0.7682370906024041, 'f1_score_micro': 0.8208498360765004, 'recall_score_macro': 0.5, 'log_loss': 0.4041021408204363, 'average_precision_score_weighted': 0.36097894000859326, 'recall_score_weighted': 0.8208498360765002, 'accuracy': 0.8208498360765002, 'balanced_accuracy': 0.5, 'confusion_matrix': <class 'dict'>, 'average_precision_score_macro': 0.36097894000859326, 'AUC_macro': 0.7682370906024041, 'precision_score_macro': 0.4104249180382501, 'norm_macro_recall': 0.0, 'accuracy_table': <class 'dict'>, 'f1_score_weighted': 0.740090908955143, 'precision_score_micro': 0.8208498360765002, 'f1_score_macro': 0.4508043815989288, 'average_precision_score_micro': 0.36097894000859326, 'recall_score_micro': 0.8208498360765002, 'precision_score_weighted': 0.6738035707480139, 'AUC_micro': 0.7682370906024041, 'weighted_accuracy': 0.9545112824121503, 'train time': <class 'float'>}.
+2019-01-22 05:43:36,353 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:36,578 - INFO - 627 : Start iteration: 29
+2019-01-22 05:43:36,579 - INFO - 491 : Loading from file cache
+2019-01-22 05:43:36,579 - INFO - 96 : ActivityStarted
+2019-01-22 05:43:36,581 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=2.0 [ms]
+2019-01-22 05:43:36,581 - INFO - 96 : ActivityStarted
+2019-01-22 05:43:36,582 - INFO - 491 : Getting data for key: X
+2019-01-22 05:43:36,597 - INFO - 491 : Getting data for key: y
+2019-01-22 05:43:36,598 - INFO - 491 : Getting data for key: X_valid
+2019-01-22 05:43:36,600 - INFO - 491 : Getting data for key: y_valid
+2019-01-22 05:43:36,601 - INFO - 491 : Getting data for key: sample_weight
+2019-01-22 05:43:36,601 - INFO - 491 : Getting data for key: sample_weight_valid
+2019-01-22 05:43:36,602 - INFO - 491 : Getting data for key: x_raw_column_names
+2019-01-22 05:43:36,603 - INFO - 491 : Getting data for key: cv_splits_indices
+2019-01-22 05:43:36,603 - INFO - 491 : Getting data for key: run_id
+2019-01-22 05:43:36,604 - INFO - 491 : Getting data for key: transformers
+2019-01-22 05:43:36,609 - INFO - 491 : Getting data for key: cv_splits
+2019-01-22 05:43:36,614 - INFO - 491 : Getting data for key: _on_demand_pickle_keys
+2019-01-22 05:43:36,614 - INFO - 116 : ActivityCompleted: HowEnded=Success, Duration=33.0 [ms]
+2019-01-22 05:43:36,615 - INFO - 325 : The on-demand pickle keys are: ['featurized_cv_split_0', 'featurized_cv_split_1', 'featurized_cv_split_2', 'featurized_cv_split_3', 'featurized_cv_split_4']
+2019-01-22 05:43:36,615 - INFO - 544 : time taken for loading from cache 0.036002397537231445
+2019-01-22 05:43:36,616 - INFO - 669 : Querying Jasmine for next pipeline.
+2019-01-22 05:43:37,399 - INFO - 682 : Received pipeline: {"pipeline_id":"__AutoML_Ensemble__","objects":[{"module":"azureml.train.automl.ensemble","class_name":"Ensemble","spec_class":"sklearn","param_args":[],"param_kwargs":{"automl_settings":"{'name': 'UlapExperiment', 'path': './Ulap-IntelligentMiningJMC', 'subscription_id': '32fcaaac-09a8-402d-8415-1900fa7c9267', 'resource_group': 'TeamUlap', 'workspace_name': 'Ulap', 'iterations': 30, 'primary_metric': 'AUC_weighted', 'data_script': None, 'compute_target': 'local', 'task_type': 'classification', 'validation_size': 0.0, 'n_cross_validations': 5, 'y_min': None, 'y_max': None, 'num_classes': 2, 'preprocess': True, 'lag_length': 0, 'is_timeseries': False, 'max_cores_per_iteration': 1, 'max_concurrent_iterations': 1, 'iteration_timeout_minutes': 10, 'mem_in_mb': None, 'enforce_time_on_windows': True, 'experiment_timeout_minutes': None, 'experiment_exit_score': None, 'whitelist_models': None, 'blacklist_algos': ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM'], 'auto_blacklist': True, 'blacklist_samples_reached': True, 'exclude_nan_labels': True, 'verbosity': 20, 'debug_log': 'automated_ml_errors.log', 'show_warnings': False, 'model_explainability': False, 'service_url': None, 'sdk_url': None, 'sdk_packages': None, 'telemetry_verbosity': 'INFO', 'send_telemetry': True, 'spark_service': None, 'metrics': None, 'enable_ensembling': True, 'ensemble_iterations': 15, 'enable_tf': False, 'enable_cache': True, 'enable_subsampling': False, 'subsample_seed': None, 'cost_mode': 0, 'metric_operation': 'maximize'}","ensemble_run_id":"AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_29","experiment_name":"UlapExperiment","workspace_name":"Ulap","subscription_id":"32fcaaac-09a8-402d-8415-1900fa7c9267","resource_group_name":"TeamUlap"}}]}
+2019-01-22 05:43:37,618 - WARNING - 104 : psutil not found, skipping logging cpu and memory
+2019-01-22 05:43:37,618 - INFO - 107 : [RunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_29]Platform information: Windows-10-10.0.14393-SP0.
+2019-01-22 05:43:37,619 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:37,619 - INFO - 366 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_29] X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (24499, 171), datasize is 56.
+2019-01-22 05:43:37,619 - INFO - 371 : [ParentRunId:AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_29] y datatype is <class 'numpy.ndarray'>, shape is (24499,), datasize is 96.
+2019-01-22 05:43:37,620 - INFO - 391 : Created child run AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_29
+2019-01-22 05:43:37,620 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:37,620 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:37,621 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:37,622 - INFO - 490 : Start executing pipeline {"pipeline_id":"__AutoML_Ensemble__","objects":[{"module":"azureml.train.automl.ensemble","class_name":"Ensemble","spec_class":"sklearn","param_args":[],"param_kwargs":{"automl_settings":"{'name': 'UlapExperiment', 'path': './Ulap-IntelligentMiningJMC', 'subscription_id': '32fcaaac-09a8-402d-8415-1900fa7c9267', 'resource_group': 'TeamUlap', 'workspace_name': 'Ulap', 'iterations': 30, 'primary_metric': 'AUC_weighted', 'data_script': None, 'compute_target': 'local', 'task_type': 'classification', 'validation_size': 0.0, 'n_cross_validations': 5, 'y_min': None, 'y_max': None, 'num_classes': 2, 'preprocess': True, 'lag_length': 0, 'is_timeseries': False, 'max_cores_per_iteration': 1, 'max_concurrent_iterations': 1, 'iteration_timeout_minutes': 10, 'mem_in_mb': None, 'enforce_time_on_windows': True, 'experiment_timeout_minutes': None, 'experiment_exit_score': None, 'whitelist_models': None, 'blacklist_algos': ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM'], 'auto_blacklist': True, 'blacklist_samples_reached': True, 'exclude_nan_labels': True, 'verbosity': 20, 'debug_log': 'automated_ml_errors.log', 'show_warnings': False, 'model_explainability': False, 'service_url': None, 'sdk_url': None, 'sdk_packages': None, 'telemetry_verbosity': 'INFO', 'send_telemetry': True, 'spark_service': None, 'metrics': None, 'enable_ensembling': True, 'ensemble_iterations': 15, 'enable_tf': False, 'enable_cache': True, 'enable_subsampling': False, 'subsample_seed': None, 'cost_mode': 0, 'metric_operation': 'maximize'}","ensemble_run_id":"AutoML_0a3e2e05-ac98-48f4-975d-0f6016c37e4b_29","experiment_name":"UlapExperiment","workspace_name":"Ulap","subscription_id":"32fcaaac-09a8-402d-8415-1900fa7c9267","resource_group_name":"TeamUlap"}}]}.
+2019-01-22 05:43:37,622 - INFO - 493 : Running with the following AutoML settings:
+ - name: UlapExperiment
+ - subscription_id: 32fcaaac-09a8-402d-8415-1900fa7c9267
+ - iterations: 30
+ - primary_metric: AUC_weighted
+ - compute_target: local
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 2
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: 10
+ - mem_in_mb: None
+ - enforce_time_on_windows: True
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['KNeighborsClassifier', 'KNeighborsRegressor', 'SVCWrapper', 'kNN', 'kNN regressor', 'SVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - telemetry_verbosity: INFO
+ - send_telemetry: True
+ - spark_context: None
+ - spark_service: None
+ - metrics: None
+ - enable_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: False
+ - subsample_seed: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-01-22 05:43:40,282 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:50,283 - INFO - 150 : Win32 QueryInformationJobObject API call failed: [WinError 234] More data is available.
+2019-01-22 05:43:54,473 - INFO - 235 : Fetching fitted models for best 29 previous iterations

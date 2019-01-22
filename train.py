@@ -83,6 +83,15 @@ dflow_prepared = dflow_prepared.set_column_types(type_conversions={
     'Failure_NextHour': int_type
 })
 
+dflow_prepared = dflow_prepared.to_number(['Density_Overload', 'Abnormal_Flow_Rate', 
+'Heat_Flow', 'Asset_Integrity', 'Temperature_Differential', 
+'Volumetric_Flow_Rate', 'Tangential_Stress', 'Duct_Lenghts_in_Units', 
+'Fault_in_last_Month', 'Avg_hours_in_Use', 'Pressure_Alarm',
+'Inclination_Angle', 'Operating_Pressure_above_Normal', 'Compression_Ratio',
+'Multiple_Connects','Water_Exposure_units', 'Humidity_Factor',
+'Cathodic_Protection', 'Pressure_Class'])
+
+display(dflow_prepared.head(5))
 
 #%%
 dflow_X = dflow_prepared.keep_columns(['Density_Overload', 'Abnormal_Flow_Rate', 
@@ -101,6 +110,8 @@ y_df = dflow_y.to_pandas_dataframe()
 
 x_train, x_test, y_train, y_test = train_test_split(x_df, y_df, test_size=0.3, random_state=223)
 y_train.values.flatten()
+
+
 
 #%%
 automl_settings = {
