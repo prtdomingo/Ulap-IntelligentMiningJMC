@@ -1,0 +1,4 @@
+2019-01-21 17:56:53.7274|DEBUG|EngineHost|Startup|MessageParser initialized|df09f586-1d62-11e9-a1e2-f4b7e2ccc86c
+2019-01-21 17:56:53.8180|DEBUG|EngineHost|Startup|MessageLoop initialized|df09f586-1d62-11e9-a1e2-f4b7e2ccc86c
+2019-01-21 18:08:54.9517|DEBUG|EngineHost|Startup|MessageParser initialized|8ebf6978-1d64-11e9-b339-f4b7e2ccc86c
+2019-01-21 18:08:54.9769|DEBUG|EngineHost|Startup|MessageLoop initialized|8ebf6978-1d64-11e9-b339-f4b7e2ccc86c
