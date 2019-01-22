@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 63,
+  "id": "f77011d3-b6de-439b-969b-17f5d23c85ec",
+  "activities": [
+    {
+      "id": "cceaa2cc-db64-4c74-8d7a-33d7021ad752",
+      "name": "AssetData_Historical",
+      "blocks": [
+        {
+          "id": "a41ca9f7-55d8-4c48-91aa-eb16a21f65f8",
+          "type": "Microsoft.DPrep.GetFilesBlock",
+          "arguments": {
+            "isArchive": false,
+            "path": {
+              "target": 0,
+              "resourceDetails": [
+                {
+                  "path": "./data/AssetData_Historical.csv"
+                }
+              ]
+            }
+          },
+          "localData": {},
+          "isEnabled": true,
+          "name": null,
+          "annotation": null
+        },
+        {
+          "id": "f9623829-d405-4ae9-b486-0c5347b5e37e",
+          "type": "Microsoft.DPrep.ParseDelimitedBlock",
+          "arguments": {
+            "columnHeadersMode": 2,
+            "fileEncoding": 0,
+            "handleQuotedLineBreaks": false,
+            "preview": false,
+            "separator": ",",
+            "skipRows": 0,
+            "skipRowsMode": 0
+          },
+          "localData": {},
+          "isEnabled": true,
+          "name": null,
+          "annotation": null
+        },
+        {
+          "id": "b51f8464-2221-47dc-a254-49633facd331",
+          "type": "Microsoft.DPrep.DropColumnsBlock",
+          "arguments": {
+            "columns": {
+              "type": 0,
+              "details": {
+                "selectedColumns": [
+                  "Path"
+                ]
+              }
+            }
+          },
+          "localData": {},
+          "isEnabled": true,
+          "name": null,
+          "annotation": null
+        }
+      ],
+      "inspectors": []
+    }
+  ],
+  "runConfigurations": []
+}
