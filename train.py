@@ -10,6 +10,8 @@ import azureml.core
 from azureml.core import Workspace, Experiment, Run
 from azureml.core.compute import AmlCompute, ComputeTarget
 
+
+
 # check core SDK version number
 print('Azure ML SDK Version: ', azureml.core.VERSION)
 
@@ -50,8 +52,5 @@ else:
     print(compute_target.status.serialize())
 #%%
 os.makedirs('./data', exist_ok = True)
-ds = ws.get_default_datastore()
-print(ds.datastore_type, ds.account_name, ds.container_name)
 
-ds.upload(src_dir='./data', target_path='AssetData', overwrite=True, show_progress=True)
-
+# INSERT DATA SOURCE HERE
